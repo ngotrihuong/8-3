@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="image/traitym.png">
+    <link rel="stylesheet" href="mail.css">
+    <title>Tặng chị...</title>
+</head>
+<body>
+    <div class="warpper preloading">
+        <div class="box">
+            <div class="mail">
+                <div class="heart">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2>8/3 vui vẻ!!!</h2>
+                    </div>
+                    <p>
+                        Hello baby khà khà khà....
+                        Mùng 8/3 chúc chị một ngày thật ý nghĩa, vui tươi ngập tràn hạnh phúc.
+                        Và chúc chị luôn cười tươi, cười duyên, cười e thẹn, cười trẻ trung, 
+                            ngập tràn các kiểu cười trong ngày hôm nay.
+                        Những người phụ nữ như chị thật tuyệt vời(xinh dẹp,đáng iu hehe), 
+                        phải luôn cười và khiến mọi việc trở nên tốt đẹp hơn nhé chị iu.
+                        Happy Women's Day <3
+
+                   </p>
+                </div>
+            </div>
+        </div>
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="inner one" style="--i:1;"></div>
+                <div class="inner two" style="--i:1;"></div>
+                <div class="inner three" style="--i:1;"></div>
+                <div class="box-heart">
+                    <div class="heartLoader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="player" autoplay loop>
+        <source src="./amnhac/cuaanh.mp3" type="audio/mp3" />
+    </audio>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+        $(window).on('load', function(event){
+        $('body').removeClass('preloading');
+        $('.loader-wrapper').delay(1000).fadeOut('fast');
+    });
+    </script>
+</html>
